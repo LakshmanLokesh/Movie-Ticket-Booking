@@ -22,8 +22,7 @@ if($mshow=="Morning"){
 }else if($mshow=="SecondShow"){
 	$thres="09:30pm";
 }
-// echo $thres;
-// echo date("h:ia");
+
 if($dob==""){
  		echo "<script>alert('Please select Date');</script>";
 	echo "<script>window.history.back();</script>";
